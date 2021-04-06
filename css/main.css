@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header  ol li{
+    border: 1px solid gray;
+}
+header nav>a{
+    color:red;
+}
