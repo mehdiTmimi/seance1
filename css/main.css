@@ -1,11 +1,64 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
-header  ol li{
-    border: 1px solid gray;
+header>div{
+    overflow: auto;
 }
-header nav>a{
-    color:red;
+header>div>h1{
+    float: left;
+}
+header>div>div{
+    float: right;
+}
+header h2{
+    display: inline-block;
+}
+header nav ol{
+    float: left;
+}
+header>nav>a{
+    float:right
+}
+header li{
+    display: inline-block;
+}
+main
+{
+    overflow: auto;
+    clear: both;
+}
+aside{
+    float: left;
+    width: 30%;
+}
+section{
+    float: right;
+    width: 70%;
+}
+aside ol{
+    list-style-type: none;
+}
+.s1{
+    overflow: auto;
+}
+.s1>a:nth-child(1){
+float: left;
+}
+.s1>a:nth-child(2){
+float: right;
+}
+section>div:nth-child(2){
+    overflow: auto;
+}
+section>div:nth-child(2)>div:nth-child(1){
+float: left;
+width: 20%;
+}
+section>div:nth-child(2)>div:nth-child(2){
+    float: left;
+    width: 80%;
+    }
+footer{
+    text-align: center;
 }
