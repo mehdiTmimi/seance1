@@ -1,18 +1,36 @@
 *{
     margin: 0px;
     padding: 0px;
+    color:rgb(37, 37, 37);
 }
 header>div{
     overflow: auto;
+    padding: 20px 10px 15px 10px;
 }
 header>div>h1{
     float: left;
+    text-transform: lowercase;
+}
+header div h1 span{
+    color:rgb(33, 138, 33);
 }
 header>div>div{
     float: right;
 }
+header button{
+    background-color: rgb(33, 138, 33);
+    color: white;
+    border: 0px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
 header h2{
     display: inline-block;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: 'New Tegomin', serif;
 }
 header nav ol{
     float: left;
@@ -22,6 +40,34 @@ header>nav>a{
 }
 header li{
     display: inline-block;
+}
+header nav{
+    overflow: auto;
+    background: #545252;
+}
+/*
+traivail à faire:
+- continuer le dev du w3school(suite)
+- http://mehditmimi.epizy.com/examGIGroupe1 (code html)
+- flexbox (css)
+*/
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 15px;
+    display: block;
+    transition-duration: 1s;
+}
+header a:hover{
+    color:#545252;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.actif{
+    background-color:rgb(67, 192, 67); ;
 }
 main
 {
